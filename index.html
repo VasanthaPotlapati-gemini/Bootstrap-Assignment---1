@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Assignment - 1</title>
+
+    <link rel="stylesheet" href="Group/css/bootstrap.min.css" />
+</head>
+<body>
+
+    <div class="container text-center">
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+           <h2 class="text-center">FORM</h2> 
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+            <h2 class="text-center">TABLE</h2> 
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+
+                <form>
+
+                    <br><h4 class="text-center">Student Registration Form</h4><br><br>
+
+                    <div class="input-group">
+                        <label for="input-group-text" class="form-label col-sm-4">Name : </label>
+                        <div class="col-sm-8">
+                        <input type="text" aria-label="name" class="form-control">
+                        </div>
+                    </div><br><br>
+
+                    <div class="input-group">
+                      <label for="InputexamplePhoneno" class="form-label col-sm-4">Phone no : </label>
+                      <div class="col-sm-8">
+                      <input type="number" aria-label="phoneno" class="form-control">
+                      </div>
+                    </div><br><br>
+
+                    <div class="input-group">
+                        <label for="InputexampleDOB" class="form-label col-sm-4">Date of Birth : </label>
+                        <div class="col-sm-8">
+                        <input type="date" aria-label="DOB" class="form-control">
+                        </div>
+                    </div><br><br>
+
+                    <div class="input-group">
+                        <label for="input-group-text" class="form-label col-sm-4">Address : </label>
+                        <div class="col-sm-8">
+                        <textarea class="form-control" aria-label="address"></textarea>
+                        </div>
+                    </div><br><br>
+
+                    <div class="input-group">
+                        <label for="gender" class="col-sm-4 col-form-label">Gender : </label>
+                        <div class="col-sm-8">
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gender" id="male1" value="opt1">
+                                <label class="form-check-label" for="male1">Male</label>
+                                
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gender" id="female1" value="opt2">
+                                <label class="form-check-label" for="female1">Female</label>
+                            </div>
+
+                        </div>
+                    </div><br><br>
+
+                    <div class="input-group">
+                        <label for="cities" class="col-sm-4 col-form-label">City : </label>
+
+                        <div class="col-sm-8">
+
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select your city</option>
+                            <option value="1">Vijayawada</option>
+                            <option value="2">Hyderabad</option>
+                            <option value="3">Kolkata</option>
+                            <option value="4">Gurgaon</option>
+                            <option value="5">Mumbai</option>
+                            <option value="6">Other</option>
+                          </select>
+                          </div>
+
+                        </div><br><br>
+
+                        <div class="input-group">
+                            <label for="hobbies" class="col-sm-4 col-form-label">Hobbies : </label>
+                            <div class="col-sm-8">
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="hobby1">
+                            <label class="form-check-label" for="hobby1">
+                              Music
+                            </label>
+                          </div>
+
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="hobby2">
+                            <label class="form-check-label" for="hobby2">
+                              Sports
+                            </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="hobby3">
+                                <label class="form-check-label" for="hobby3">
+                                  Reading
+                                </label>
+                              </div>
+
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="hobby4">
+                                <label class="form-check-label" for="hobby4">
+                                  Sketching
+                                </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="hobby5">
+                                    <label class="form-check-label" for="hobby5">
+                                      Singing
+                                    </label>
+                                    </div>
+                          
+                          </div>
+                          </div><br><br>
+
+
+                          <input type="submit" class="btn btn-primary" value="Submit">
+                          <input type="reset" class="btn btn-primary" value="Reset">
+
+                  </form> 
+
+            </div>
+
+
+
+
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                <br><h4 class="text-center">Student Records</h4><br>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="col-2">S.No.</th>
+                        <th scope="col" class="col-2">Name</th>
+                        <th scope="col" class="col-2">Phone No</th>
+                        <th scope="col" class="col-2">Gender</th>
+                        <th scope="col" class="col-2">City</th>
+                        <th scope="col" class="col-2">Hobbies</th>
+                      </tr>
+
+                    </thead> 
+
+                    <tbody>
+                        <tr>
+
+                            <th>1</th>
+                            <td>Ram</td>
+                            <td>9345566562</td>
+                            <td>Male</td>
+                            <td>Visakhapatnam</td>
+                            <td>Music <br> Sports <br> Sketching</td>
+                  
+                          </tr>
+                  
+                          <tr>
+                  
+                            <th>2</th>
+                            <td>Krish</td>
+                            <td>7923746523</td>
+                            <td>Male</td>
+                            <td>Gurgaon</td>
+                            <td>Sports <br> Reading <br> Sketching</td>
+                  
+                          </tr>
+                  
+                          <tr>
+                  
+                            <th>3</th>
+                            <td>Rosy</td>
+                            <td>9765621342</td>
+                            <td>Female</td>
+                            <td>Kolkata</td>
+                            <td>Reading <br> Sketching <br> Singing </td>
+                  
+                          </tr>
+                  
+
+                    </tbody>
+                    </table>
+            </div>
+        </div>
+      </div>
+
+</body>
+</html>
